@@ -1,0 +1,30 @@
+{
+  "name": "foodapp_backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/strapi": "4.0.0",
+    "sqlite3": "5.0.2",
+    "stripe": "^8.202.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3474b811-b050-4030-b9e0-63000420291d"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
