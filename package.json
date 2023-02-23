@@ -12,7 +12,7 @@
   "dependencies": {
     "@strapi/plugin-graphql": "4.0.1",
     "@strapi/plugin-i18n": "4.0.1",
-    "@strapi/plugin-users-permissions": "4.0.1",
+    "@strapi/plugin-users-permissions": "4.6.2",
     "@strapi/strapi": "4.0.1",
     "sqlite3": "5.0.2",
     "stripe": "^8.202.0"
